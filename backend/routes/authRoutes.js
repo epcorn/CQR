@@ -15,4 +15,7 @@ router.route("/login").post(login);
 router.route("/serviceCard").get(serviceCards);
 router.route("/contractDetails").get(contractDetails);
 
+//this for ticketNest
+router.route("/contractServices").get(contractServices);
+
 module.exports = router;
